@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+// In your React component file (e.g., App.js or index.js)
+import '@fortawesome/fontawesome-free/css/all.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { AuthProvider } from './components/AuthContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <AuthProvider> */}
     <App />
+    {/* </AuthProvider> */}
   </React.StrictMode>
 );
 

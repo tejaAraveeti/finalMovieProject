@@ -1,0 +1,54 @@
+/* MovieDetailsPage.css */
+.movie-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .movie-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .movie-description {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .movie-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .details {
+    margin-top: 20px;
+  }
+  
+  .detail-item {
+    margin-bottom: 15px;
+  }
+  
+  .book-now-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-link:hover {
+    background-color: #0056b3;
+  }
+  

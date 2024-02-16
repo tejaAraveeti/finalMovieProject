@@ -1,0 +1,55 @@
+/* style.css */
+
+.seat-selection-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  ul.seat-rows-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add gap between li elements */
+  }
+  
+  li {
+    width: calc(18% - 20px); /* Adjust the width and consider gap */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li:hover {
+    opacity: 0.8;
+  }
+  
+  span {
+    margin-top: 5px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #78ad7a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

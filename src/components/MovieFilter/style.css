@@ -1,0 +1,32 @@
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 150px; 
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #afc9e4;
+    color: #fff;
+    padding: 6px 12px; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #7b9dc2;
+  }
+  
